@@ -1,0 +1,317 @@
+#title {
+
+
+    height: 450px;
+    background-image: url(img/hangar.png);
+    background-size: cover;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+
+}
+
+#coldwar {
+
+    background-image: url(img/coldwar.png);
+    background-size: cover;
+
+}
+
+#ww {}
+
+h1 {
+
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-bottom: 0 !important;
+    font-family: sans-serif;
+    color: #fff;
+
+
+}
+
+
+img {
+
+    width: 700px;
+    height: 250px;
+    padding-left: 200px;
+
+}
+
+h2 {
+
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+    text-align-last: left;
+
+
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+/* Fakta */
+
+#fakta {
+    background-color: #0278ae;
+    text-align-last: center;
+
+
+}
+
+#ww {}
+
+
+.forstaplan {
+
+    height: 20%;
+    width: 100%;
+    margin-left: auto;
+
+}
+
+.plan1 {
+    height: 30%;
+    width: 110%;
+}
+
+.plan2 {
+    height: 30%;
+    width: 110%;
+}
+
+.rub1 {
+    text-align-last: center;
+    font-size: 10px;
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+}
+
+
+
+
+
+p {
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.rubrik {
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap');
+
+/*body {
+	font-family: 'Montserrat';
+}*/
+
+#title {
+    background-color: skyblue;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/*Download buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/*Title image*/
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/*Features*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.features-col {
+    text-align: center;
+    padding: 4%;
+}
+
+
+/*Feature-icons*/
+
+.feature-icon {
+    font-size: 3rem;
+    color: #ef8172;
+    padding: 5%;
+}
+
+.feature-icon:hover {
+    color: #ef6172;
+}
+
+.icon-p {
+    color: #808080;
+}
+
+.feature-icon-h3 {
+    font-weight: bold;
+}
+
+.feauture-icon-row {
+    padding: 0 15%;
+}
+
+/*Testimonials*/
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef6172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*Press*/
+
+#press {
+    background-color: #ef6172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Carousel*/
+
+.carousel-control {
+    margin: -20%;
+}
+
+/*Pricing*/
+
+.card {
+    text-align: center;
+    line-height: 15px;
+}
+
+.card-btn {
+    line-height: 20px;
+    background-color: #ef8172;
+    color: white;
+}
+
+
+.card-btn:hover {
+    background-color: #ef6172;
+    color: white;
+}
+
+
+
+
+@media (max-width: 1018px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#footer {
+
+    text-align-last: center;
+
+}
+
+#aktur {
+
+    background-color: #0278ae;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+
+
+}
+
+.carousel {
+
+    margin-left: 7%;
+}
+
+/*Rating*/
+#colorstar {
+    color: #ee8b2d;
+}
+
+.badForm {
+    color: #FF0000;
+}
+
+.goodForm {
+    color: #00FF00;
+}
+
+.evaluation {
+    margin-left: 30px;
+}
+
+@betyg {
+    color: white;
+}
